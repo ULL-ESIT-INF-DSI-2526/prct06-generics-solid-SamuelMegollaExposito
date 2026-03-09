@@ -1,0 +1,5 @@
+Justificación ejercicio 3:
+Justificación final del nuevo diseño:
+Modularidad: Cada figura está en su propio archivo.
+Abstracción: AreaCalculator ya no depende de tipos específicos (Circle, Rectangle), sino de una abstracción (IShape), cumpliendo también el Principio de Inversión de Dependencias (DIP).
+Seguridad: Ya no hay bloques switch ni lanzamientos de errores Unknown shape, ya que el sistema de tipos de TypeScript asegura en tiempo de compilación que solo pasamos objetos válidos a la calculadora.
