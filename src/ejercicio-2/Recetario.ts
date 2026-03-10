@@ -1,5 +1,5 @@
-import { IReceta } from "./IReceta";
-import { IRecetario } from "./IRecetario";
+import { IReceta } from "./interface/IReceta";
+import { IRecetario } from "./interface/IRecetario";
 
 export class Recetario implements IRecetario {
   constructor(private _id: string, private _recetas: IReceta[] = []) {}

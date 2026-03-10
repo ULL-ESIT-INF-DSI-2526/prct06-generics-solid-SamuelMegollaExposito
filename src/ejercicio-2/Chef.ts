@@ -1,5 +1,5 @@
-import { IRecetario } from "./IRecetario";
-import { IChef } from "./IChef";
+import { IRecetario } from "./interface/IRecetario";
+import { IChef } from "./interface/IChef";
 
 export class Chef implements IChef {
   constructor(

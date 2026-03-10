@@ -1,5 +1,5 @@
 import { Paso } from "./Paso";
-import { IPasoConHerramienta } from "./IpasoConHerramienta";
+import { IPasoConHerramienta } from "./interface/IpasoConHerramienta";
 
 export class PasoConHerramienta extends Paso implements IPasoConHerramienta {
   constructor(

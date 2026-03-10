@@ -1,4 +1,4 @@
-import { IRepository } from "./IRepository";
+import { IRepository } from "./interface/IRepository";
 
 /**
  * Implementación base genérica para repositorios.

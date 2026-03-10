@@ -1,6 +1,6 @@
 import { BaseRepository } from "./BaseRepository";
-import { IPaso } from "./IPaso";
-import { ISearchByName, ISearchByTags, ISearchByOptionality } from "./ISearchable";
+import { IPaso } from "./interface/IPaso";
+import { ISearchByName, ISearchByTags, ISearchByOptionality } from "./interface/ISearchable";
 
 export class StepRepository extends BaseRepository<IPaso> implements ISearchByName<IPaso>, ISearchByTags<IPaso>, ISearchByOptionality<IPaso> {
   searchByName(name: string): IPaso[] {

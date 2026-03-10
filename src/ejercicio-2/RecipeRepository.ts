@@ -1,6 +1,6 @@
 import { BaseRepository } from "./BaseRepository";
-import { IReceta } from "./IReceta";
-import { ISearchByName, ISearchByYearRange } from "./ISearchable";
+import { IReceta } from "./interface/IReceta";
+import { ISearchByName, ISearchByYearRange } from "./interface/ISearchable";
 
 export class RecipeRepository extends BaseRepository<IReceta> implements ISearchByName<IReceta>, ISearchByYearRange<IReceta> {
   searchByName(name: string): IReceta[] {

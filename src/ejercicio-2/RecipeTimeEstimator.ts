@@ -1,4 +1,4 @@
-import { IReceta } from "./IReceta";
+import { IReceta } from "./interface/IReceta";
 
 /**
  * Servicio encargado de la lógica de cálculo de tiempos de recetas.

@@ -1,4 +1,4 @@
-import { IPaso } from "./IPaso";
+import { IPaso } from "./interface/IPaso";
 
 /**
  * Clase que representa un paso básico en una receta.

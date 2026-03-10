@@ -1,4 +1,4 @@
-import { ITablePresenter } from "./ITablePresenter";
+import { ITablePresenter } from "./interface/ITablePresenter";
 
 /**
  * Implementación de presentación por consola.

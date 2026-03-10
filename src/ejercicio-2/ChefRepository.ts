@@ -1,6 +1,6 @@
 import { BaseRepository } from "./BaseRepository";
-import { IChef } from "./IChef";
-import { ISearchByName, ISearchByFollowers } from "./ISearchable";
+import { IChef } from "./interface/IChef";
+import { ISearchByName, ISearchByFollowers } from "./interface/ISearchable";
 
 export class ChefRepository extends BaseRepository<IChef> implements ISearchByName<IChef>, ISearchByFollowers<IChef> {
   searchByName(name: string): IChef[] {

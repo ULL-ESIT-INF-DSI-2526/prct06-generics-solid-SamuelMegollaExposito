@@ -1,5 +1,5 @@
-import { IReceta } from "./IReceta";
-import { IPaso } from "./IPaso";
+import { IReceta } from "./interface/IReceta";
+import { IPaso } from "./interface/IPaso";
 
 /**
  * Clase que representa una receta.

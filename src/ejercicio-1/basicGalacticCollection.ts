@@ -5,8 +5,7 @@ import { Affiliation } from "./types";
  * Clase abstracta que proporciona una implementación base para las colecciones galácticas.
  * T debe tener al menos las propiedades básicas para permitir búsquedas comunes.
  */
-export abstract class BasicGalacticCollection<T extends { id: string; name: string; affiliation: Affiliation }> 
-  implements GalacticRegistry<T> {
+export abstract class BasicGalacticCollection<T extends { id: string; name: string; affiliation: Affiliation }> implements GalacticRegistry<T> {
   
   protected items: T[] = [];
 
