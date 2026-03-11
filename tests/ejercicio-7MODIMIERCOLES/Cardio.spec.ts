@@ -29,19 +29,16 @@ describe('Cardio Test', () => {
         expect(MiCardio.summary()).toBe("correr - 3 km")
     });
 
-/*
+
     test('Debe lanzar error si la duración es negativa en validate()', () => {
-        const MiCardio = new Cardio("correr", -3, 60, "correr", 300);
-        expect(() => MiCardio.validate()).toThrow("La duración debe ser positiva");
+        expect(() => { const MiCardio = new Cardio("correr", -3, 60, "correr", 300)}).toThrow("La distancia no puede ser negativa");
     });
+
     test('Debe lanzar error si la distancia es negativa en validate()', () => {
-        const MiCardio = new Cardio("correr", 3, -60, "correr", 300);
-        expect(() => MiCardio.validate()).toThrow("La distancia no puede ser negativa");
+        expect(() => {const MiCardio = new Cardio("correr", 3, -60, "correr", 300);}).toThrow("La duración debe ser positiva");
     });
     test('Debe lanzar error si las calorias en validate()', () => {
-        const MiCardio = new Cardio("correr", -3, 60, "correr", -300);
-        expect(() => MiCardio.validate()).toThrow("Calorías inválidas");
+        expect(() => {const MiCardio = new Cardio("correr", 3, 60, "correr", -300);}).toThrow("Calorías inválidas");
     });
-*/
 
 });
