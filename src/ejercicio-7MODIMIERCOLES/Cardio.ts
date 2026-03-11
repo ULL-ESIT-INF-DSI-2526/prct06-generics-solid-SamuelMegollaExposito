@@ -45,7 +45,7 @@ export class Cardio implements IRegistrable<string> {
    */
     validate(): void {
         if (this._distance < 0) {
-            throw new Error("La distancia no puede ser negativa");
+            throw new Error ("La distancia no puede ser negativa")
         }
         if (this._duration <= 0) {
             throw new Error("La duración debe ser positiva");
